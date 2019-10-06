@@ -35,8 +35,6 @@ BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-VIPER-OS_BUILD_TYPE := Unofficial
-DEVICE_MAINTAINERS="MaheshTechnicals | Mahesh Varma"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
             PRIVATE_BUILD_DESC="oxygen-user 7.1.1 NMF26F 8.11.8 release-keys"
