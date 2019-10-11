@@ -42,3 +42,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Xiaomi/oxygen/oxygen:7.1.1/NMF26F/8.11.8:user/release-keys"
 
+#Bootanimation Resolution. 
+TARGET_BOOT_ANIMATION_RES := 1080
