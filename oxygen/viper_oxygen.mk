@@ -47,5 +47,4 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-Mmmmmmmmmmmmmmmmmmmmmm
-     DEVICE_MAINTAINERS="Mahesh Technicals"
+    DEVICE_MAINTAINERS="Mahesh Technicals"
