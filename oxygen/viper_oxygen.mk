@@ -44,3 +44,4 @@ BUILD_FINGERPRINT := "Xiaomi/oxygen/oxygen:7.1.1/NMF26F/8.11.8:user/release-keys
 
 #Bootanimation Resolution. 
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
