@@ -62,3 +62,9 @@ service goodix_script /vendor/bin/init.goodix.sh
     class late_start
     user root
     oneshot
+    
+#dtw
+
+    chmod 0666 /sys/devices/platform/soc/78b7000.i2c/i2c-3/3-0020/input/input2/wake_gesture
+    chown system system /sys/devices/platform/soc/78b7000.i2c/i2c-3/3-0020/input/input2/wake_gesture
+    echo 1 > /sys/devices/platform/soc/78b7000.i2c/i2c-3/3-0020/input/input2/wake_gesture
