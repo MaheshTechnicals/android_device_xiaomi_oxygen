@@ -1,1 +1,1 @@
-add_lunch_combo viper_oxygen-userdebug
+add_lunch_combo stag_oxygen-userdebug

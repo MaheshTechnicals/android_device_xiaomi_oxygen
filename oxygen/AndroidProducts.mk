@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/viper_oxygen.mk
+    $(LOCAL_DIR)/stag_oxygen.mk
