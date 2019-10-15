@@ -14,4 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_oxygen.mk
+    $(LOCAL_DIR)/aosp_oxygen.mk
+
