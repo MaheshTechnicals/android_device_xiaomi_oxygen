@@ -68,3 +68,9 @@ service goodix_script /vendor/bin/init.goodix.sh
    chmod 0666 /sys/devices/platform/soc/78b7000.i2c/i2c-3/3-0020/input/input2/wake_gesture
    chown system system /sys/devices/platform/soc/78b7000.i2c/i2c-3/3-0020/input/input2/wake_gesture
    echo 1 > /sys/devices/platform/soc/78b7000.i2c/i2c-3/3-0020/input/input2/wake_gesture
+
+#Allow permission for smart charging
+   chown system system /sys/class/power_supply/battery/charging_enabled
+   chmod 0666 /sys/class/power_supply/battery/charging_enabled
+   chown system system /sys/class/power_supply/battery/input_suspend
+   chmod 0666 /sys/class/power_supply/battery/input_suspend
